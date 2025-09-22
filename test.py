@@ -6,11 +6,11 @@ from sklearn.metrics import precision_score, recall_score, f1_score
 from tqdm import tqdm
 
 # === Paths ===
-model_path = "/Users/rsiddiq2/out-llama1b-hours"
+model_path = "/Users/rsiddiq2/out-llama-3-1"
 
 #test_path  = "data/hours_test.jsonl"
 test_path  = "data/hours_test.jsonl"
-output_path = "test_results_llama1b_HIL.json"
+output_path = "test_results_llama-3-1.json"
 
 # === Custom stopping criterion ===
 class StopOnString(StoppingCriteria):
